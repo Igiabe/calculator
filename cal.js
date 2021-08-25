@@ -40,3 +40,4 @@ const allClear = () =>{
     data.value = '';
     resultEle.innerText = result;
 };
+const y = x;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+        <span id= "data"></span>
+        <span id="result"></span>
+         </div>
+        <button onclick="allClear()">AC</button>
+        <button onclick="remove()">DEL</button>
+        <button  onclick="inputOperator('+')">+</button>
+        <button onclick="inputOperator('*')">*</button>
+        <button onclick="inputnumber (1)">1</button>
+        <button onclick="inputnumber (2)">2</button>
+        <button onclick="inputnumber (3)">3</button>
+        <button onclick="inputOperator('/')">/</button>
+        <button onclick="inputnumber (4)">4</button>
+        <button onclick="inputnumber (5)">5</button>
+        <button onclick="inputnumber (6)">6</button>
+        <button onclick="inputOperator('-')">-</button>
+        <button onclick="inputnumber (7)">7</button>
+        <button onclick="inputnumber (8)">8</button>
+        <button onclick="inputnumber (9)">9</button>
+        <button onclick="inputSquare()">x*x</button>
+        <button onclick="inputnumber (0)">0</button>
+        <button onclick="inputnumber ('.')">.</button>
+        <button onclick="inputPer('%')">%</button>
+        <button  onclick="calculate()">=</button>
+
+    </div>
+<script src="cal.js"></script>
+</body>
+</html>
